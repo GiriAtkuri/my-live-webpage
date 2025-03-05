@@ -42,10 +42,10 @@
 
     --chat--textarea--height: 50px;
 
-    --chat--message--font-size: 0.8rem;
+    --chat--message--font-size: 0.7rem;
     --chat--message--padding: var(--chat--spacing);
     --chat--message--border-radius: var(--chat--border-radius);
-    --chat--message-line-height: 1.5;
+    --chat--message-line-height: 1.2;
     --chat--message--bot--background: var(--chat--color-light);
     --chat--message--bot--color: var(--chat--color-dark);
     --chat--message--bot--border: none;
