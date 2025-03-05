@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Web Page</title>
+</head>
+
+<body>
+    <h1>Welcome to My Live Web Page!</h1>
+    <p>This is a real-time webpage.</p>
+    <link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+    <script type="module">
+        import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+
+        createChat({
+            webhookUrl: 'https://integrations.moaiconsulting.io/webhook/f406671e-c954-4691-b39a-66c90aa2f103/chat'
+        });
+    </script>
+</body>
+
+</html>
